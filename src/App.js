@@ -13,7 +13,7 @@ function App() {
     <>
       <Router>
         <Switch>
-          <Route exact path="/"><Home /></Route>
+          <Route exact path="/js-app/"><Home /></Route>
           <Route exact path="/game"><Game /></Route>
           <Route path="/product"><Product /></Route>
           <Route path="/login"><Login /></Route>
