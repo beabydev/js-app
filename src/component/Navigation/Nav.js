@@ -13,9 +13,9 @@ function Nav() {
                 </div>
             </div>
             <ul className="menu">
-                <NavLink className="menu-option" to="/" exact>Trang chủ</NavLink>
-                <NavLink className="menu-option" to="/product">Sản phẩm</NavLink>
-                <NavLink className="menu-option" to="/game">Minigame</NavLink>
+                <NavLink className="menu-option" to="/js-app/" exact>Trang chủ</NavLink>
+                <NavLink className="menu-option" to="/js-app/product">Sản phẩm</NavLink>
+                <NavLink className="menu-option" to="/js-app/game">Minigame</NavLink>
             </ul>
             <div>user</div>
         </div>

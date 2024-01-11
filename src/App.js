@@ -7,6 +7,7 @@ import Register from "./router/register/Register";
 import './app.scss';
 import Product from './router/product/product';
 import Game from './router/game/game';
+import Mbbank from './router/app-router/mbbank/mbbank';
 
 function App() {
   return (
@@ -14,10 +15,11 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/js-app/"><Home /></Route>
-          <Route exact path="/game"><Game /></Route>
-          <Route path="/product"><Product /></Route>
-          <Route path="/login"><Login /></Route>
-          <Route path="/register"><Register /></Route>
+          <Route exact path="/js-app/game"><Game /></Route>
+          <Route exact path="/js-app/mbbank"><Mbbank /></Route>
+          <Route path="/js-app/product"><Product /></Route>
+          <Route path="/js-app/login"><Login /></Route>
+          <Route path="/js-app/register"><Register /></Route>
           <Route path="*"><Not /></Route>
         </Switch>
       </Router>

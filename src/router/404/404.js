@@ -7,7 +7,7 @@ const Not = () => {
             <div className="notfound-container">
                 <div>
                     <h1>404 not found</h1>
-                    <NavLink to='/'>Go to home</NavLink>
+                    <NavLink to='/js-app/'>Go to home</NavLink>
                 </div>
             </div>
         </>

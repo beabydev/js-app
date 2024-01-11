@@ -1,0 +1,30 @@
+.Mbbank-container {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+    color: #fff;
+
+    .box-mbbank {
+        border: 1px solid red;
+        width: 98vw;
+        height: 98vh;
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .options {
+            display: flex;
+            justify-content: space-evenly;
+        }
+    }
+
+}
