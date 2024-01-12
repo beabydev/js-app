@@ -27,8 +27,8 @@ function Product() {
 
     return (
         <>
-            <Nav />
             <div className='Product-container'>
+                <Nav />
                 <div className='nav__product'>
                     <ul className='nav__product--container'>
                         <li className='nav__item nav__item-active'
